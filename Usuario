@@ -1,0 +1,45 @@
++/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ *
+ * @author marflord
+ */
+public class Usuario {
+    public abstract class Usuarios{
+        String nombreCompleto;
+        String password;
+        String estadoUsuario;
+        String direccion;
+        String ciudad;
+        String email;
+        String telefono;
+        
+        public Usuarios (String nC, String p, String eU,String d, String c, String e, String t){
+            this.nombreCompleto=nC;
+            this.password=p;
+            this.estadoUsuario=eU;
+            this.direccion=d;
+            this.ciudad=c;
+            this.email=e;
+            this.telefono=t;
+            
+           }
+        
+       
+        
+    } 
+   public abstract Operario extends Usuario {
+                
+        
+        
+     
+        
+                
+        
+    }
+    
+}
